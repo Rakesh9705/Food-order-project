@@ -1,0 +1,61 @@
+.profile-container {
+    background-color: rgb(142, 82, 199);
+    padding: 40px;
+    height: 100vh;
+}
+.profile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+}
+.name {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.edit-btn {
+    border-color: white;
+    font-weight: bold;
+    color: white;
+}
+.about-card {
+    margin-top: 20px;
+    background-color: white;
+    height: 60vh;
+    padding: 30px;
+}
+.options-card {
+    width: 18%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgb(223, 223, 211);
+    display: flex;
+    flex-direction: column;
+}
+.option-box {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    color:rgb(77, 77, 71);
+}
+.option-box:hover {
+    background-color: white;
+    color: rgb(142, 82, 199);
+    font-weight: bold;
+}
+.icon {
+    margin-right: 10px;
+}
